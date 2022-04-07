@@ -112,19 +112,23 @@ local methods = {
 					local idx
 					local dev
 					local name = iface:name()
-					local fwzone = fwm:get_zone_by_network(net:name())
 					local l = netlist
 
 					if not net:is_alias() and iface:is_bridge() then
 						l = brlist
 					end
 
-					l[name] = { }
-					l[name]["netname"] = net:name()
-					l[name]["wifiname"] = wifiname
-					if fwzone then
-						l[name]["fwzone"]       = fwzone:name()
-						l[name]["fwzone_sid"]   = fwzone.sid
+					if l[name] == nil then
+						l[name] = { }
+						l[name]["netname"] = net:name()
+						l[name]["wifiname"] = wifiname
+						local fwzone = fwm:get_zone_by_network(net:name())
+						if fwzone then
+							l[name]["fwzone"]       = fwzone:name()
+							l[name]["fwzone_sid"]   = fwzone.sid
+						end
+					else
+						l[name]["netname"] = l[name]["netname"] .. ", " .. net:name()
 					end
 				end
 			end

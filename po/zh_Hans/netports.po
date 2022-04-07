@@ -1,0 +1,86 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: htdocs/luci-static/resources/netports.js:249
+msgid "Bridge member"
+msgstr "关联网桥"
+
+#: htdocs/luci-static/resources/netports.js:364
+msgid "Collecting data..."
+msgstr "收集数据..."
+
+#: htdocs/luci-static/resources/netports.js:121
+msgctxt "Link status"
+msgid "Connected"
+msgstr "已连接"
+
+#: htdocs/luci-static/resources/netports.js:137
+msgctxt "Link status"
+msgid "Disabled"
+msgstr "已禁用"
+
+#: htdocs/luci-static/resources/netports.js:130
+msgctxt "Link status"
+msgid "Disconnected"
+msgstr "已断开"
+
+#: htdocs/luci-static/resources/netports.js:250
+msgid "Firewall zones"
+msgstr "防火墙区域"
+
+#: root/usr/share/rpcd/acl.d/netports.json:3
+msgid "Grant access to network ports status information"
+msgstr ""
+
+#: htdocs/luci-static/resources/netports.js:248
+msgid "Interface"
+msgstr "接口"
+
+#: htdocs/luci-static/resources/netports.js:247
+msgid "Link status"
+msgstr "链路状态"
+
+#: htdocs/luci-static/resources/netports.js:253
+msgid "MAC-address"
+msgstr "MAC地址"
+
+#: htdocs/luci-static/resources/netports.js:246
+msgid "Name and MAC-address"
+msgstr "名称和MAC"
+
+#: htdocs/luci-static/resources/view/status/include/25_netports.js:48
+msgid "Network Interfaces Ports Status"
+msgstr "网络接口状态"
+
+#: htdocs/luci-static/resources/netports.js:586
+msgid "No data to display"
+msgstr "无数据"
+
+#: htdocs/luci-static/resources/netports.js:251
+msgid "RX"
+msgstr "接收"
+
+#: htdocs/luci-static/resources/netports.js:252
+msgid "TX"
+msgstr "发送"
+
+#: htdocs/luci-static/resources/netports.js:307
+msgid "Toggle additional information"
+msgstr "扩展信息开关"
+
+#: htdocs/luci-static/resources/netports.js:320
+#: htdocs/luci-static/resources/netports.js:419
+msgid "Toggle view mode"
+msgstr "切换视图模式"
+
+#: htdocs/luci-static/resources/netports.js:410
+msgid "Too many ports for horizontal display mode"
+msgstr "水平显示模式太多端口"
+
+#: htdocs/luci-static/resources/netports.js:124
+msgid "full-duplex"
+msgstr "全双工"
+
+#: htdocs/luci-static/resources/netports.js:126
+msgid "half-duplex"
+msgstr "半双工"
